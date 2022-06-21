@@ -1,0 +1,69 @@
+/* This must be the first line of the custom.css with other import rules */
+/* Colors palette */
+/*:root {
+        --bg-url: url(https://images.unsplash.com/photo-1637247474239-81551a9fa979?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+    }*/
+   :root {
+        --bg-url: url(https://images.unsplash.com/photo-1637247474239-81551a9fa979?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
+        --bg-overlay: #dff4f8;
+      	--favicons: none;
+    }
+
+/*.light,
+.light-theme,
+html[data-theme='light'] {
+    --bg-overlay: #f5f3f3;    backgroud color
+    --cp-accent: #2aa198;
+    --cp-accent-opacity: #e1efe1;
+    --cp-accent-opacity-semi: #99d4c7; 
+
+    --cp-white-light: #fefcf5;
+    --cp-white: #fefefe;
+    --cp-white-dark: #f5f3f3;
+    --cp-white-darker: #edf2f6;
+    --cp-dark: #d7d1c1;
+    --cp-black: #333333;
+    --cp-gray: #cccccc;
+
+    --cp-red: #d3455b;
+    --cp-orange: #ffa542;
+    --cp-yellow: #f6c423;
+    --cp-yellow-light: #ffe79a;
+    --cp-green: #27ae9e;
+    --cp-blue: #2c89d9;
+    --cp-purple: #9c739c;
+    --cp-cherry: #955f60;
+
+    --ls-link-text-hover-color: var(--cp-black);
+    --mark-bg: var(--cp-yellow-light);
+    --inline-code-bg: var(--cp-white-light);
+    --ls-page-blockquote-bg-color: var(--cp-accent-opacity);
+}*/
+
+
+b, strong {
+    color: #b32a2a;
+    font-weight: 600;
+}
+
+a.tag {
+    font-size: 13px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    cursor: pointer;
+    color: #8079e9;
+    /* opacity: var(--ls-tag-text-opacity,.8); */
+}
+
+:root {
+    --ct-text-size: 16px;
+    --ct-line-height: 1.6;
+    --ls-font-family: "LXGWWenKai-Regular", "LXGWWenKai-Bold", "LXGWWenKaiMono-Bold", sans-serif;
+    --ct-page-title-font-family: var(--ls-font-family);
+    --ct-code-font-family: "Fira Code", monospace;
+  
+.shadow-xl {
+    --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1),0 10px 10px -5px rgb(161 215 253 / 75%);
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
